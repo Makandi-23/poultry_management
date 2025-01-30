@@ -1,0 +1,39 @@
+name: poultry_management
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.5.3 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  provider: 6.0.0
+  intl: ^0.18.0
+  get: ^4.6.6
+  cupertino_icons: ^1.0.8
+  icons_plus: ^5.0.0
+  fl_chart: ^0.69.0 # Added fl_chart package for graphs
+  font_awesome_flutter: ^10.8.0
+  http: ^1.2.2
+  shared_preferences: ^2.3.3
+  curved_navigation_bar: ^1.0.6
+  
+  
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/login.jpg
+    - assets/images/logo.webp
+    - assets/images/chickswall.jpg
+    - assets/images/logologo.webp
+    - assets/images/social.jpg
+    - assets/images/purplewallpaper.jpg
